@@ -120,11 +120,19 @@ a {
     justify-content: space-between;
 }
 
+.menu-desk {
+    display: none;
+}
+
 /* *********************************************************************** SECTION FEATURE *********************************************************************** */
 
 .col-up-bg h3,
 .col-up-bg a {
     align-self: flex-start;
+}
+
+.card-feature-up {
+    margin-bottom: 1rem;
 }
 
 /* *********************************************************************** SECTION PLANNING *********************************************************************** */
@@ -169,6 +177,7 @@ footer {
 /* *********************************************************************** RESPONSIVE *********************************************************************** */
 /* TABLET  */
 @media screen and (min-width: 600px) {     /* TABLET  */
+
     .card-feature-up {
         flex-direction: row;
         margin-bottom: 1rem;
@@ -213,4 +222,58 @@ footer {
 
 @media screen and (min-width: 1140px) {     /* DESKTOP */
     
+    .menu-mob-tab {
+        display: none;
+    }
+
+    .menu-desk {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .list-nav-desk li {
+        list-style: none;
+    }
+    
+    .card-feature-up,
+    .card-feature-down {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .card-feature-up {
+        margin-bottom: 1rem;
+    }
+
+    .box-planning {
+        flex-direction: row;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .box-testimonial {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .box-benefits {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .card-benefits {
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .box-about-us {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .box-cta {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
