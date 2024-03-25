@@ -1,5 +1,97 @@
+/* *********************************************************************** COMMON STYLE *********************************************************************** */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.boxed-bg {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.boxed-md {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.boxed-sm {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.back-violet {
+    background-color: #9792E4;
+    color: white;
+}
+
+.back-white {
+    background-color: white;
+    color: #9792E4;
+}
+
+.back-lightblue {
+    background-color: #B5DDFB;
+    color: #2083F6;
+}
+
+.back-blue {
+    background-color: #2083F6;
+    color: white;
+}
+
+.padd-section {
+    padding: 3rem 1rem;
+}
+
+.padd-div {
+    padding: 1rem;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.item-gap {
+    gap: 1rem;
+}
+
+.p-sm {
+    font-size: 0.8rem;
+}
+
+.btn {
+    border-radius: 15px;
+}
+
+.btn-bg {
+    padding: 1rem 3rem;
+}
+
+.btn-sm {
+    padding: 0.7rem 1rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: #9792E4;
+}
+
+.btn-violet {
+    background-color: #9792E4;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #2083F6;
+    color: white;
+}
+
+/* *********************************************************************** HEADER *********************************************************************** */
