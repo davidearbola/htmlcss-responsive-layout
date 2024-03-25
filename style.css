@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .boxed-bg {
     width: 1140px;
     margin: 0 auto;
@@ -72,11 +76,11 @@
 }
 
 .btn-bg {
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
 }
 
 .btn-sm {
-    padding: 0.7rem 1rem;
+    padding: 0.3rem 1rem;
 }
 
 .btn-white {
@@ -94,8 +98,24 @@
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.col {
+    border-radius: 20px;
+}
+
 /* *********************************************************************** HEADER *********************************************************************** */
 
-.menu {
+.menu-mob-tab {
     justify-content: space-between;
+}
+
+/* *********************************************************************** SECTION FEATURE *********************************************************************** */
+
+.col-feature-bg h3,
+.col-feature-bg a {
+    align-self: flex-start;
 }
