@@ -55,8 +55,6 @@ body {
 
 .container-flex {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .flex-column {
@@ -145,4 +143,10 @@ a {
 
 .card-benefits {
     align-items: flex-start;
+}
+
+/* *********************************************************************** SECTION ABOUT US *********************************************************************** */
+
+.profile .btn {
+    align-self: flex-start;
 }
