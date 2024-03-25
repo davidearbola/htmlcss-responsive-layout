@@ -122,8 +122,8 @@ a {
 
 /* *********************************************************************** SECTION FEATURE *********************************************************************** */
 
-.col-feature-bg h3,
-.col-feature-bg a {
+.col-up-bg h3,
+.col-up-bg a {
     align-self: flex-start;
 }
 
@@ -164,4 +164,53 @@ footer {
     background-color: #333333;
     text-align: center;
     color: white;
+}
+
+/* *********************************************************************** RESPONSIVE *********************************************************************** */
+/* TABLET  */
+@media screen and (min-width: 600px) {     /* TABLET  */
+    .card-feature-up {
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+    .card-feature-down {
+        flex-direction: row;
+    }
+
+    .col-up-bg {
+        flex-direction: row;
+        width: calc(66% + 0.33rem);
+    }
+
+    .col-sm {
+        width: calc(33% - 0.33rem);
+    }
+
+    .box-card-benefits {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-benefits {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .box-about-us {
+        flex-direction: row;
+    }
+
+    .box-cta {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .box-footer {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1140px) {     /* DESKTOP */
+    
 }
