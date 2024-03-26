@@ -218,6 +218,14 @@ a {
     align-items: flex-start;
 }
 
+.title-benefits {
+    text-align: center;
+}
+
+.card-benefits h2 {
+    font-size: 3rem;
+}
+
 /* *********************************************************************** SECTION ABOUT US *********************************************************************** */
 
 .profile .btn {
