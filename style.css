@@ -339,6 +339,15 @@ footer {
         flex-direction: row;
     }
 
+    .description,
+    .profile {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .img-about {
+        margin: 0 auto;
+    }
+
     .box-cta {
         width: 80%;
         margin: 0 auto;
