@@ -121,6 +121,28 @@ a {
     align-items: center;
 }
 
+.menu-hide {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.hamburger-nav:active .hamburger-nav i {
+    display: none;
+}
+
+.hamburger-nav:active .menu-hide {
+    display: block;
+}
+
+.menu-hide li {
+    list-style: none;
+}
+
 .menu-desk {
     display: none;
 }
