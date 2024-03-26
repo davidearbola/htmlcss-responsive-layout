@@ -317,6 +317,15 @@ footer {
         width: calc(33% - 0.33rem);
     }
 
+    .col-card-testimonial {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .col-cit {
+        text-align: left;
+    }
+
     .box-card-benefits {
         flex-direction: row;
         flex-wrap: wrap;
