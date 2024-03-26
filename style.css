@@ -158,8 +158,6 @@ a {
     color: #5A6E7F;
 }
 
-
-
 /* *********************************************************************** SECTION PLANNING *********************************************************************** */
 
 #planning img {
@@ -187,6 +185,31 @@ a {
 
 .col-cit h3 {
     margin-top: 1rem;
+}
+
+.col-img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.img-testimonial-1 {
+    background-image: url(./img/testimonial1.jpg);
+}
+
+.img-testimonial-2 {
+    background-image: url(./img/testimonial2.jpg);
+}
+
+.img-testimonial-3 {
+    background-image: url(./img/testimonial3.jpg);
+}
+
+.box-testimonial:first-child h2 {
+    color: #9792E4;
 }
 
 /* *********************************************************************** SECTION BENEFITS *********************************************************************** */
