@@ -393,13 +393,13 @@ footer {
     }
 
     .img-card {
-        position: relative;
+        display: flex;
     }
 
     .img-card img {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
+        width: 80%;
+        align-self: flex-end;
+        margin: 0 auto;
     }
 
     .card-feature-up {
