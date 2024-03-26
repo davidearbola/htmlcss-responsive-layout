@@ -450,6 +450,14 @@ footer {
         margin: 0 auto;
     }
 
+    .description {
+        width: calc(65% - 1rem);
+    }
+
+    .profile {
+        width: calc(35% - 1rem);
+    }
+
     .box-cta {
         width: 50%;
         margin: 0 auto;
