@@ -166,7 +166,8 @@ a {
 
 /* *********************************************************************** SECTION PLANNING *********************************************************************** */
 
-#planning img {
+.col-plan img,
+.col-dev img {
     width: 100%;
 }
 
@@ -409,6 +410,25 @@ footer {
         flex-direction: row;
         width: 60%;
         margin: 0 auto;
+    }
+
+    .col-plan,
+    .col-dev {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .col-dev {
+        flex-shrink: 0;
+        align-self: flex-end;
+    }
+
+    .col-dev img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .col-plan img {
+        margin-bottom: 4rem;
     }
 
     .box-testimonial {
