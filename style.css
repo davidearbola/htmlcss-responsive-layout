@@ -135,6 +135,31 @@ a {
     margin-bottom: 1rem;
 }
 
+.img-card img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-card {
+    text-align: center;
+}
+
+.icon-bg {
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+.col-sm {
+    text-align: center;
+}
+
+#feature p {
+    color: #5A6E7F;
+}
+
+
+
 /* *********************************************************************** SECTION PLANNING *********************************************************************** */
 
 /* *********************************************************************** SECTION TESTIMONIAL *********************************************************************** */
