@@ -382,6 +382,25 @@ footer {
         margin: 0 auto;
     }
 
+    .col-up-bg {
+        flex-direction: row;
+    }
+
+    .img-card,
+    .col-up-bg-description {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .img-card {
+        position: relative;
+    }
+
+    .img-card img {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
     .card-feature-up {
         margin-bottom: 1rem;
     }
